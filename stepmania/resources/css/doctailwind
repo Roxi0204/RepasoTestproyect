@@ -1,0 +1,1112 @@
+# Documentación de Clases Tailwind CSS
+
+## Espaciado y Layout
+
+### Padding
+- `p-{size}`: Padding en todos los lados
+- `px-{size}`: Padding horizontal
+- `py-{size}`: Padding vertical
+- `pt-{size}`: Padding top
+- `pr-{size}`: Padding right
+- `pb-{size}`: Padding bottom
+- `pl-{size}`: Padding left
+
+### Margin
+- `m-{size}`: Margin en todos los lados
+- `mx-{size}`: Margin horizontal
+- `my-{size}`: Margin vertical
+- `mt-{size}`: Margin top
+- `mr-{size}`: Margin right
+- `mb-{size}`: Margin bottom
+- `ml-{size}`: Margin left
+
+### Display
+- `block`: Display block
+- `inline-block`: Display inline-block
+- `inline`: Display inline
+- `flex`: Display flex
+- `grid`: Display grid
+- `hidden`: Display none
+
+## Flexbox
+
+### Flex Container
+- `flex`: Activa flexbox
+- `flex-row`: Dirección horizontal
+- `flex-col`: Dirección vertical
+- `flex-wrap`: Permite wrap
+- `flex-nowrap`: No permite wrap
+- `justify-start`: Alinea al inicio
+- `justify-center`: Alinea al centro
+- `justify-end`: Alinea al final
+- `justify-between`: Espacio entre elementos
+- `items-start`: Alinea items al inicio
+- `items-center`: Alinea items al centro
+- `items-end`: Alinea items al final
+
+### Flex Items
+- `flex-1`: Ocupa espacio disponible
+- `flex-auto`: Tamaño automático
+- `flex-initial`: Tamaño inicial
+- `flex-none`: Sin flexibilidad
+
+## Grid
+
+### Grid Container
+- `grid`: Activa grid
+- `grid-cols-{n}`: Define número de columnas
+- `grid-rows-{n}`: Define número de filas
+- `gap-{size}`: Espacio entre elementos
+- `gap-x-{size}`: Espacio horizontal entre elementos
+- `gap-y-{size}`: Espacio vertical entre elementos
+
+## Tipografía
+
+### Tamaño de Texto
+- `text-xs`: Texto extra pequeño
+- `text-sm`: Texto pequeño
+- `text-base`: Texto base
+- `text-lg`: Texto grande
+- `text-xl`: Texto extra grande
+- `text-2xl`: Texto 2xl
+- `text-3xl`: Texto 3xl
+- `text-4xl`: Texto 4xl
+- `text-5xl`: Texto 5xl
+
+### Peso de Texto
+- `font-thin`: Peso 100
+- `font-light`: Peso 300
+- `font-normal`: Peso 400
+- `font-medium`: Peso 500
+- `font-semibold`: Peso 600
+- `font-bold`: Peso 700
+- `font-extrabold`: Peso 800
+
+### Alineación de Texto
+- `text-left`: Alineación izquierda
+- `text-center`: Alineación centro
+- `text-right`: Alineación derecha
+- `text-justify`: Texto justificado
+
+## Colores
+
+### Fondo
+- `bg-{color}-{shade}`: Color de fondo
+- `bg-opacity-{value}`: Opacidad del fondo
+
+### Texto
+- `text-{color}-{shade}`: Color del texto
+- `text-opacity-{value}`: Opacidad del texto
+
+### Bordes
+- `border-{color}-{shade}`: Color del borde
+- `border-opacity-{value}`: Opacidad del borde
+
+## Bordes
+
+### Estilo
+- `border`: Borde normal
+- `border-0`: Sin borde
+- `border-2`: Borde grueso
+- `border-4`: Borde extra grueso
+- `border-dashed`: Borde punteado
+- `border-dotted`: Borde punteado
+- `border-double`: Borde doble
+
+### Radio
+- `rounded`: Bordes redondeados
+- `rounded-full`: Bordes completamente redondeados
+- `rounded-{size}`: Tamaño del radio
+
+## Efectos
+
+### Sombras
+- `shadow`: Sombra base
+- `shadow-sm`: Sombra pequeña
+- `shadow-md`: Sombra media
+- `shadow-lg`: Sombra grande
+- `shadow-xl`: Sombra extra grande
+- `shadow-2xl`: Sombra 2xl
+- `shadow-inner`: Sombra interna
+- `shadow-none`: Sin sombra
+
+### Opacidad
+- `opacity-{value}`: Control de opacidad (0-100)
+
+## Interactividad
+
+### Hover
+- `hover:bg-{color}`: Color de fondo al hover
+- `hover:text-{color}`: Color de texto al hover
+- `hover:border-{color}`: Color de borde al hover
+
+### Focus
+- `focus:ring`: Anillo de focus
+- `focus:ring-{color}`: Color del anillo de focus
+- `focus:ring-{size}`: Tamaño del anillo de focus
+
+## Responsive
+
+### Breakpoints
+- `sm:`: Small (640px)
+- `md:`: Medium (768px)
+- `lg:`: Large (1024px)
+- `xl:`: Extra large (1280px)
+- `2xl:`: 2X large (1536px)
+
+## Utilidades
+
+### Posicionamiento
+- `relative`: Posición relativa
+- `absolute`: Posición absoluta
+- `fixed`: Posición fija
+- `sticky`: Posición sticky
+
+### Overflow
+- `overflow-auto`: Overflow automático
+- `overflow-hidden`: Overflow oculto
+- `overflow-scroll`: Overflow con scroll
+- `overflow-x-auto`: Overflow horizontal automático
+- `overflow-y-auto`: Overflow vertical automático
+
+### Z-index
+- `z-{value}`: Control de z-index (0-50)
+
+## Animaciones
+
+### Transiciones
+- `transition`: Transición base
+- `transition-all`: Transición de todas las propiedades
+- `transition-colors`: Transición de colores
+- `transition-opacity`: Transición de opacidad
+- `duration-{value}`: Duración de la transición
+- `ease-{type}`: Tipo de easing
+
+### Transformaciones
+- `transform`: Activa transformaciones
+- `scale-{value}`: Escala
+- `rotate-{value}`: Rotación
+- `translate-x-{value}`: Traslación horizontal
+- `translate-y-{value}`: Traslación vertical
+
+## Tamaños y Dimensiones
+
+### Ancho
+- `w-{size}`: Ancho fijo
+- `w-full`: Ancho completo
+- `w-screen`: Ancho de pantalla
+- `w-auto`: Ancho automático
+- `w-1/2`: 50% del ancho
+- `w-1/3`: 33.33% del ancho
+- `w-1/4`: 25% del ancho
+- `w-1/5`: 20% del ancho
+- `w-1/6`: 16.66% del ancho
+
+### Alto
+- `h-{size}`: Alto fijo
+- `h-full`: Alto completo
+- `h-screen`: Alto de pantalla
+- `h-auto`: Alto automático
+- `h-1/2`: 50% del alto
+- `h-1/3`: 33.33% del alto
+- `h-1/4`: 25% del alto
+- `h-1/5`: 20% del alto
+- `h-1/6`: 16.66% del alto
+
+### Min/Max Dimensiones
+- `min-w-{size}`: Ancho mínimo
+- `max-w-{size}`: Ancho máximo
+- `min-h-{size}`: Alto mínimo
+- `max-h-{size}`: Alto máximo
+
+## Listas y Tablas
+
+### Listas
+- `list-none`: Sin estilo de lista
+- `list-disc`: Lista con puntos
+- `list-decimal`: Lista numerada
+- `list-inside`: Marcadores dentro
+- `list-outside`: Marcadores fuera
+
+### Tablas
+- `table-auto`: Ancho de tabla automático
+- `table-fixed`: Ancho de tabla fijo
+- `border-collapse`: Bordes colapsados
+- `border-separate`: Bordes separados
+
+## Formularios
+
+### Inputs
+- `appearance-none`: Sin apariencia por defecto
+- `placeholder-{color}`: Color del placeholder
+- `focus:outline-none`: Sin outline al focus
+- `focus:border-{color}`: Color del borde al focus
+- `focus:ring-{color}`: Color del anillo al focus
+
+### Checkboxes y Radios
+- `form-checkbox`: Estilo checkbox
+- `form-radio`: Estilo radio
+- `checked:bg-{color}`: Color al estar seleccionado
+- `checked:border-{color}`: Color del borde al estar seleccionado
+
+## Estados
+
+### Active
+- `active:bg-{color}`: Color de fondo al estar activo
+- `active:text-{color}`: Color de texto al estar activo
+- `active:border-{color}`: Color de borde al estar activo
+
+### Disabled
+- `disabled:opacity-{value}`: Opacidad al estar deshabilitado
+- `disabled:cursor-not-allowed`: Cursor no permitido
+- `disabled:bg-{color}`: Color de fondo al estar deshabilitado
+
+## Media Queries
+
+### Dark Mode
+- `dark:bg-{color}`: Color de fondo en modo oscuro
+- `dark:text-{color}`: Color de texto en modo oscuro
+- `dark:border-{color}`: Color de borde en modo oscuro
+
+### Print
+- `print:block`: Display block en impresión
+- `print:hidden`: Oculto en impresión
+- `print:text-black`: Texto negro en impresión
+
+## Personalización
+
+### Custom Colors
+- `bg-[#color]`: Color personalizado de fondo
+- `text-[#color]`: Color personalizado de texto
+- `border-[#color]`: Color personalizado de borde
+
+### Custom Spacing
+- `p-[size]`: Padding personalizado
+- `m-[size]`: Margin personalizado
+- `w-[size]`: Ancho personalizado
+- `h-[size]`: Alto personalizado
+
+## Accesibilidad
+
+### Screen Readers
+- `sr-only`: Solo visible para lectores de pantalla
+- `not-sr-only`: No solo para lectores de pantalla
+
+### Focus
+- `focus-visible:ring`: Anillo visible al focus
+- `focus-visible:outline-none`: Sin outline al focus visible
+
+## Animaciones Avanzadas
+
+### Keyframes
+- `animate-spin`: Animación de giro
+- `animate-ping`: Animación de ping
+- `animate-pulse`: Animación de pulso
+- `animate-bounce`: Animación de rebote
+
+### Timing
+- `delay-{value}`: Retraso de animación
+- `animate-{value}`: Duración de animación
+- `animate-{type}`: Tipo de animación
+
+## Utilidades Avanzadas
+
+### Cursor
+- `cursor-auto`: Cursor automático
+- `cursor-pointer`: Cursor pointer
+- `cursor-wait`: Cursor de espera
+- `cursor-text`: Cursor de texto
+- `cursor-move`: Cursor de movimiento
+- `cursor-not-allowed`: Cursor no permitido
+
+### Selección
+- `select-none`: No se puede seleccionar
+- `select-text`: Se puede seleccionar texto
+- `select-all`: Se puede seleccionar todo
+
+### Visibilidad
+- `visible`: Elemento visible
+- `invisible`: Elemento invisible
+- `collapse`: Elemento colapsado
+
+## Gradientes y Fondos
+
+### Gradientes
+- `bg-gradient-to-r`: Gradiente a la derecha
+- `bg-gradient-to-l`: Gradiente a la izquierda
+- `bg-gradient-to-t`: Gradiente hacia arriba
+- `bg-gradient-to-b`: Gradiente hacia abajo
+- `bg-gradient-to-tr`: Gradiente diagonal superior derecha
+- `bg-gradient-to-tl`: Gradiente diagonal superior izquierda
+- `bg-gradient-to-br`: Gradiente diagonal inferior derecha
+- `bg-gradient-to-bl`: Gradiente diagonal inferior izquierda
+
+### Fondos
+- `bg-fixed`: Fondo fijo
+- `bg-local`: Fondo local
+- `bg-scroll`: Fondo con scroll
+- `bg-clip-text`: Recorte de fondo a texto
+- `bg-clip-border`: Recorte de fondo a borde
+- `bg-clip-padding`: Recorte de fondo a padding
+- `bg-clip-content`: Recorte de fondo a contenido
+
+## Transformaciones 3D
+
+### Rotación 3D
+- `rotate-x-{value}`: Rotación en eje X
+- `rotate-y-{value}`: Rotación en eje Y
+- `rotate-z-{value}`: Rotación en eje Z
+
+### Perspectiva
+- `perspective-{value}`: Distancia de perspectiva
+- `perspective-origin-{value}`: Origen de perspectiva
+
+### Transformación 3D
+- `transform-gpu`: Aceleración por GPU
+- `transform-cpu`: Transformación por CPU
+- `transform-none`: Sin transformación
+
+## Filtros y Efectos
+
+### Filtros
+- `filter`: Activa filtros
+- `filter-none`: Sin filtros
+- `blur-{value}`: Desenfoque
+- `brightness-{value}`: Brillo
+- `contrast-{value}`: Contraste
+- `grayscale`: Escala de grises
+- `hue-rotate-{value}`: Rotación de tono
+- `invert`: Inversión de colores
+- `saturate-{value}`: Saturación
+- `sepia`: Efecto sepia
+
+### Efectos de Fondo
+- `backdrop-blur-{value}`: Desenfoque de fondo
+- `backdrop-brightness-{value}`: Brillo de fondo
+- `backdrop-contrast-{value}`: Contraste de fondo
+- `backdrop-grayscale`: Escala de grises de fondo
+- `backdrop-hue-rotate-{value}`: Rotación de tono de fondo
+- `backdrop-invert`: Inversión de fondo
+- `backdrop-opacity-{value}`: Opacidad de fondo
+- `backdrop-saturate-{value}`: Saturación de fondo
+- `backdrop-sepia`: Efecto sepia de fondo
+
+## Transiciones Avanzadas
+
+### Timing Functions
+- `ease-linear`: Transición lineal
+- `ease-in`: Transición de entrada
+- `ease-out`: Transición de salida
+- `ease-in-out`: Transición de entrada y salida
+
+### Propiedades de Transición
+- `transition-none`: Sin transición
+- `transition-all`: Todas las propiedades
+- `transition-colors`: Solo colores
+- `transition-opacity`: Solo opacidad
+- `transition-shadow`: Solo sombras
+- `transition-transform`: Solo transformaciones
+
+## Utilidades de SVG
+
+### Stroke
+- `stroke-{color}`: Color del trazo
+- `stroke-{width}`: Ancho del trazo
+- `stroke-dasharray-{value}`: Patrón de guiones
+- `stroke-dashoffset-{value}`: Desplazamiento de guiones
+- `stroke-linecap-{value}`: Estilo de fin de línea
+- `stroke-linejoin-{value}`: Estilo de unión de líneas
+- `stroke-opacity-{value}`: Opacidad del trazo
+
+### Fill
+- `fill-{color}`: Color de relleno
+- `fill-current`: Color actual
+- `fill-none`: Sin relleno
+- `fill-opacity-{value}`: Opacidad del relleno
+
+## Utilidades de Scroll
+
+### Scroll Behavior
+- `scroll-auto`: Comportamiento de scroll automático
+- `scroll-smooth`: Scroll suave
+- `scroll-p-{size}`: Padding de scroll
+- `scroll-m-{size}`: Margin de scroll
+
+### Scroll Snap
+- `snap-start`: Snap al inicio
+- `snap-end`: Snap al final
+- `snap-center`: Snap al centro
+- `snap-align-none`: Sin alineación de snap
+- `snap-normal`: Snap normal
+- `snap-always`: Snap siempre
+
+## Utilidades de Interacción
+
+### Touch
+- `touch-auto`: Comportamiento táctil automático
+- `touch-none`: Sin comportamiento táctil
+- `touch-pan-x`: Pan horizontal
+- `touch-pan-y`: Pan vertical
+- `touch-pinch-zoom`: Pinch zoom
+
+### User Select
+- `select-none`: No se puede seleccionar
+- `select-text`: Se puede seleccionar texto
+- `select-all`: Se puede seleccionar todo
+- `select-auto`: Selección automática
+
+## Utilidades de Contenedor
+
+### Container
+- `container`: Contenedor responsive
+- `container-sm`: Contenedor pequeño
+- `container-md`: Contenedor mediano
+- `container-lg`: Contenedor grande
+- `container-xl`: Contenedor extra grande
+- `container-2xl`: Contenedor 2x grande
+
+### Aspect Ratio
+- `aspect-auto`: Relación de aspecto automática
+- `aspect-square`: Relación de aspecto cuadrada
+- `aspect-video`: Relación de aspecto de video
+- `aspect-{ratio}`: Relación de aspecto personalizada
+
+## Utilidades de Texto Avanzadas
+
+### Espaciado de Texto
+- `tracking-tighter`: Espaciado más ajustado
+- `tracking-tight`: Espaciado ajustado
+- `tracking-normal`: Espaciado normal
+- `tracking-wide`: Espaciado amplio
+- `tracking-wider`: Espaciado más amplio
+- `tracking-widest`: Espaciado más amplio
+
+### Altura de Línea
+- `leading-none`: Sin altura de línea
+- `leading-tight`: Altura de línea ajustada
+- `leading-snug`: Altura de línea cómoda
+- `leading-normal`: Altura de línea normal
+- `leading-relaxed`: Altura de línea relajada
+- `leading-loose`: Altura de línea suelta
+
+### Decoración de Texto
+- `underline`: Subrayado
+- `line-through`: Tachado
+- `no-underline`: Sin subrayado
+- `decoration-{color}`: Color de decoración
+- `decoration-{style}`: Estilo de decoración
+- `decoration-{thickness}`: Grosor de decoración
+
+## Utilidades de Imágenes
+
+### Object Fit
+- `object-contain`: Contener dentro
+- `object-cover`: Cubrir
+- `object-fill`: Llenar
+- `object-none`: Sin ajuste
+- `object-scale-down`: Escalar hacia abajo
+
+### Object Position
+- `object-bottom`: Posición inferior
+- `object-center`: Posición central
+- `object-left`: Posición izquierda
+- `object-left-bottom`: Posición inferior izquierda
+- `object-left-top`: Posición superior izquierda
+- `object-right`: Posición derecha
+- `object-right-bottom`: Posición inferior derecha
+- `object-right-top`: Posición superior derecha
+- `object-top`: Posición superior
+
+## Utilidades de Tabla Avanzadas
+
+### Alineación de Celdas
+- `table-auto`: Ancho automático
+- `table-fixed`: Ancho fijo
+- `border-collapse`: Bordes colapsados
+- `border-separate`: Bordes separados
+- `table-cell`: Display table-cell
+- `table-row`: Display table-row
+- `table-header-group`: Display table-header-group
+- `table-footer-group`: Display table-footer-group
+
+### Estilos de Tabla
+- `caption-top`: Leyenda arriba
+- `caption-bottom`: Leyenda abajo
+- `empty-cells-show`: Mostrar celdas vacías
+- `empty-cells-hide`: Ocultar celdas vacías
+
+## Utilidades de Formulario Avanzadas
+
+### Placeholder
+- `placeholder-{color}`: Color del placeholder
+- `placeholder-opacity-{value}`: Opacidad del placeholder
+- `placeholder-{size}`: Tamaño del placeholder
+
+### File Input
+- `file:bg-{color}`: Color de fondo del input file
+- `file:text-{color}`: Color de texto del input file
+- `file:border-{color}`: Color de borde del input file
+- `file:rounded-{size}`: Radio del input file
+
+### Select
+- `select-{color}`: Color del select
+- `select-bg-{color}`: Color de fondo del select
+- `select-border-{color}`: Color de borde del select
+
+## Utilidades de Accesibilidad Avanzadas
+
+### ARIA
+- `aria-hidden`: Oculto para lectores de pantalla
+- `aria-expanded`: Expandido
+- `aria-selected`: Seleccionado
+- `aria-checked`: Marcado
+- `aria-disabled`: Deshabilitado
+
+### Focus Visible
+- `focus-visible:ring`: Anillo visible al focus
+- `focus-visible:outline-none`: Sin outline al focus visible
+- `focus-visible:bg-{color}`: Color de fondo al focus visible
+- `focus-visible:text-{color}`: Color de texto al focus visible
+
+## Utilidades de Animación Avanzadas
+
+### Keyframes Personalizados
+- `animate-[keyframe]`: Animación personalizada
+- `animate-[duration]`: Duración personalizada
+- `animate-[timing]`: Timing personalizado
+- `animate-[delay]`: Retraso personalizado
+- `animate-[iteration]`: Iteraciones personalizadas
+- `animate-[direction]`: Dirección personalizada
+- `animate-[fill-mode]`: Modo de llenado personalizado
+
+### Transformaciones 3D Avanzadas
+- `rotate-3d-{x,y,z,angle}`: Rotación 3D
+- `scale-3d-{x,y,z}`: Escala 3D
+- `translate-3d-{x,y,z}`: Traslación 3D
+- `perspective-{value}`: Perspectiva
+- `perspective-origin-{value}`: Origen de perspectiva
+
+## Utilidades de Grid Avanzadas
+
+### Grid Template Areas
+- `grid-areas-{name}`: Áreas de grid
+- `grid-area-{name}`: Área específica
+- `grid-template-areas-{value}`: Plantilla de áreas
+
+### Grid Auto Flow
+- `grid-flow-row`: Flujo por filas
+- `grid-flow-col`: Flujo por columnas
+- `grid-flow-dense`: Flujo denso
+- `grid-flow-row-dense`: Flujo por filas denso
+- `grid-flow-col-dense`: Flujo por columnas denso
+
+## Utilidades de Flexbox Avanzadas
+
+### Order
+- `order-{value}`: Orden de elementos
+- `order-first`: Primer elemento
+- `order-last`: Último elemento
+- `order-none`: Sin orden específico
+
+### Grow/Shrink
+- `grow`: Crecimiento
+- `grow-0`: Sin crecimiento
+- `shrink`: Contracción
+- `shrink-0`: Sin contracción
+
+### Basis
+- `basis-{size}`: Tamaño base
+- `basis-auto`: Tamaño automático
+- `basis-full`: Tamaño completo
+- `basis-0`: Tamaño cero
+
+## Utilidades de Contenido
+
+### Content
+- `content-none`: Sin contenido
+- `content-{value}`: Contenido personalizado
+- `before:content-{value}`: Contenido antes
+- `after:content-{value}`: Contenido después
+
+### Quotes
+- `quotes-none`: Sin comillas
+- `quotes-{value}`: Comillas personalizadas
+- `quote-{value}`: Estilo de comillas
+
+## Utilidades de Cursor
+
+### Cursor Personalizado
+- `cursor-{value}`: Cursor personalizado
+- `cursor-alias`: Cursor alias
+- `cursor-all-scroll`: Cursor de scroll
+- `cursor-cell`: Cursor de celda
+- `cursor-context-menu`: Cursor de menú contextual
+- `cursor-copy`: Cursor de copia
+- `cursor-crosshair`: Cursor de cruz
+- `cursor-default`: Cursor por defecto
+- `cursor-grab`: Cursor de agarrar
+- `cursor-grabbing`: Cursor de agarrando
+- `cursor-help`: Cursor de ayuda
+- `cursor-move`: Cursor de mover
+- `cursor-no-drop`: Cursor de no soltar
+- `cursor-none`: Sin cursor
+- `cursor-not-allowed`: Cursor no permitido
+- `cursor-pointer`: Cursor de puntero
+- `cursor-progress`: Cursor de progreso
+- `cursor-resize`: Cursor de redimensionar
+- `cursor-text`: Cursor de texto
+- `cursor-wait`: Cursor de espera
+- `cursor-zoom-in`: Cursor de zoom in
+- `cursor-zoom-out`: Cursor de zoom out
+
+## Utilidades de Scrollbar
+
+### Scrollbar Personalizada
+- `scrollbar-thin`: Scrollbar delgada
+- `scrollbar-none`: Sin scrollbar
+- `scrollbar-{color}`: Color de scrollbar
+- `scrollbar-track-{color}`: Color de track
+- `scrollbar-thumb-{color}`: Color de thumb
+
+## Utilidades de Selección
+
+### Selección de Texto
+- `selection:bg-{color}`: Color de fondo de selección
+- `selection:text-{color}`: Color de texto de selección
+- `selection:bg-opacity-{value}`: Opacidad de fondo de selección
+
+## Utilidades de Transformación de Texto
+
+### Transformación
+- `uppercase`: Mayúsculas
+- `lowercase`: Minúsculas
+- `capitalize`: Capitalizar
+- `normal-case`: Caso normal
+
+### Whitespace
+- `whitespace-normal`: Espacio normal
+- `whitespace-nowrap`: Sin salto de línea
+- `whitespace-pre`: Preformateado
+- `whitespace-pre-line`: Preformateado con líneas
+- `whitespace-pre-wrap`: Preformateado con wrap
+
+### Word Break
+- `break-normal`: Break normal
+- `break-words`: Break de palabras
+- `break-all`: Break de todo
+- `break-keep`: Mantener break
+
+## Utilidades de Lista
+
+### List Style Type
+- `list-none`: Sin estilo
+- `list-disc`: Puntos
+- `list-decimal`: Números
+- `list-{type}`: Tipo personalizado
+
+### List Style Position
+- `list-inside`: Dentro
+- `list-outside`: Fuera
+
+## Utilidades de Tabla
+
+### Table Layout
+- `table-auto`: Layout automático
+- `table-fixed`: Layout fijo
+
+### Border Collapse
+- `border-collapse`: Colapsar bordes
+- `border-separate`: Separar bordes
+
+## Utilidades de Formulario
+
+### Resize
+- `resize-none`: Sin redimensionar
+- `resize`: Redimensionar
+- `resize-y`: Redimensionar vertical
+- `resize-x`: Redimensionar horizontal
+
+### Appearance
+- `appearance-none`: Sin apariencia
+- `appearance-auto`: Apariencia automática
+
+## Utilidades de Interacción
+
+### User Select
+- `select-none`: No seleccionable
+- `select-text`: Seleccionar texto
+- `select-all`: Seleccionar todo
+- `select-auto`: Selección automática
+
+### Pointer Events
+- `pointer-events-none`: Sin eventos de puntero
+- `pointer-events-auto`: Eventos de puntero automáticos
+
+## Utilidades de Visibilidad
+
+### Visibility
+- `visible`: Visible
+- `invisible`: Invisible
+- `collapse`: Colapsado
+
+### Backface Visibility
+- `backface-visible`: Visible por detrás
+- `backface-hidden`: Oculto por detrás
+
+## Utilidades de Transformación
+
+### Transform Origin
+- `origin-center`: Origen central
+- `origin-top`: Origen superior
+- `origin-top-right`: Origen superior derecho
+- `origin-right`: Origen derecho
+- `origin-bottom-right`: Origen inferior derecho
+- `origin-bottom`: Origen inferior
+- `origin-bottom-left`: Origen inferior izquierdo
+- `origin-left`: Origen izquierdo
+- `origin-top-left`: Origen superior izquierdo
+
+### Transform Style
+- `transform-style-flat`: Estilo plano
+- `transform-style-preserve-3d`: Preservar 3D
+
+## Utilidades de Accesibilidad Avanzadas
+
+### ARIA States
+- `aria-busy`: Estado ocupado
+- `aria-checked`: Estado marcado
+- `aria-disabled`: Estado deshabilitado
+- `aria-expanded`: Estado expandido
+- `aria-hidden`: Estado oculto
+- `aria-invalid`: Estado inválido
+- `aria-pressed`: Estado presionado
+- `aria-selected`: Estado seleccionado
+
+### ARIA Roles
+- `role-alert`: Rol de alerta
+- `role-alertdialog`: Rol de diálogo de alerta
+- `role-application`: Rol de aplicación
+- `role-article`: Rol de artículo
+- `role-banner`: Rol de banner
+- `role-button`: Rol de botón
+- `role-checkbox`: Rol de checkbox
+- `role-complementary`: Rol complementario
+- `role-contentinfo`: Rol de información de contenido
+- `role-dialog`: Rol de diálogo
+- `role-document`: Rol de documento
+- `role-feed`: Rol de feed
+- `role-form`: Rol de formulario
+- `role-grid`: Rol de grid
+- `role-gridcell`: Rol de celda de grid
+- `role-group`: Rol de grupo
+- `role-heading`: Rol de encabezado
+- `role-img`: Rol de imagen
+- `role-link`: Rol de enlace
+- `role-list`: Rol de lista
+- `role-listbox`: Rol de listbox
+- `role-listitem`: Rol de elemento de lista
+- `role-log`: Rol de log
+- `role-main`: Rol principal
+- `role-marquee`: Rol de marquesina
+- `role-math`: Rol de matemáticas
+- `role-menu`: Rol de menú
+- `role-menubar`: Rol de barra de menú
+- `role-menuitem`: Rol de elemento de menú
+- `role-menuitemcheckbox`: Rol de checkbox de menú
+- `role-menuitemradio`: Rol de radio de menú
+- `role-navigation`: Rol de navegación
+- `role-none`: Sin rol
+- `role-note`: Rol de nota
+- `role-option`: Rol de opción
+- `role-presentation`: Rol de presentación
+- `role-progressbar`: Rol de barra de progreso
+- `role-radio`: Rol de radio
+- `role-radiogroup`: Rol de grupo de radio
+- `role-region`: Rol de región
+- `role-row`: Rol de fila
+- `role-rowgroup`: Rol de grupo de filas
+- `role-rowheader`: Rol de encabezado de fila
+- `role-scrollbar`: Rol de scrollbar
+- `role-search`: Rol de búsqueda
+- `role-searchbox`: Rol de caja de búsqueda
+- `role-separator`: Rol de separador
+- `role-slider`: Rol de slider
+- `role-spinbutton`: Rol de botón de giro
+- `role-status`: Rol de estado
+- `role-switch`: Rol de switch
+- `role-tab`: Rol de tab
+- `role-tablist`: Rol de lista de tabs
+- `role-tabpanel`: Rol de panel de tab
+- `role-textbox`: Rol de caja de texto
+- `role-timer`: Rol de temporizador
+- `role-toolbar`: Rol de barra de herramientas
+- `role-tooltip`: Rol de tooltip
+- `role-tree`: Rol de árbol
+- `role-treegrid`: Rol de grid de árbol
+- `role-treeitem`: Rol de elemento de árbol
+
+## Utilidades de Filtros Avanzados
+
+### Filtros de Color
+- `filter-hue-rotate-{value}`: Rotación de tono
+- `filter-saturate-{value}`: Saturación
+- `filter-brightness-{value}`: Brillo
+- `filter-contrast-{value}`: Contraste
+- `filter-invert-{value}`: Inversión
+- `filter-sepia-{value}`: Sepia
+- `filter-grayscale-{value}`: Escala de grises
+- `filter-blur-{value}`: Desenfoque
+- `filter-drop-shadow-{value}`: Sombra
+
+### Filtros de Fondo
+- `backdrop-filter`: Filtro de fondo
+- `backdrop-blur-{value}`: Desenfoque de fondo
+- `backdrop-brightness-{value}`: Brillo de fondo
+- `backdrop-contrast-{value}`: Contraste de fondo
+- `backdrop-grayscale-{value}`: Escala de grises de fondo
+- `backdrop-hue-rotate-{value}`: Rotación de tono de fondo
+- `backdrop-invert-{value}`: Inversión de fondo
+- `backdrop-opacity-{value}`: Opacidad de fondo
+- `backdrop-saturate-{value}`: Saturación de fondo
+- `backdrop-sepia-{value}`: Sepia de fondo
+
+## Utilidades de Transición Avanzadas
+
+### Propiedades de Transición
+- `transition-property-{value}`: Propiedad de transición
+- `transition-duration-{value}`: Duración de transición
+- `transition-timing-function-{value}`: Función de timing
+- `transition-delay-{value}`: Retraso de transición
+
+### Timing Functions
+- `ease-linear`: Lineal
+- `ease-in`: Entrada
+- `ease-out`: Salida
+- `ease-in-out`: Entrada y salida
+- `ease-{value}`: Personalizado
+
+## Utilidades de Animación Avanzadas
+
+### Propiedades de Animación
+- `animation-name-{value}`: Nombre de animación
+- `animation-duration-{value}`: Duración de animación
+- `animation-timing-function-{value}`: Función de timing
+- `animation-delay-{value}`: Retraso de animación
+- `animation-iteration-count-{value}`: Conteo de iteraciones
+- `animation-direction-{value}`: Dirección de animación
+- `animation-fill-mode-{value}`: Modo de llenado
+- `animation-play-state-{value}`: Estado de reproducción
+
+### Keyframes
+- `@keyframes-{name}`: Keyframes personalizados
+- `animate-{name}`: Animación personalizada
+
+## Utilidades de Transformación Avanzadas
+
+### Transformaciones 3D
+- `transform-3d`: Transformación 3D
+- `transform-style-{value}`: Estilo de transformación
+- `transform-origin-{value}`: Origen de transformación
+- `transform-perspective-{value}`: Perspectiva de transformación
+- `transform-perspective-origin-{value}`: Origen de perspectiva
+
+### Transformaciones Personalizadas
+- `transform-{value}`: Transformación personalizada
+- `transform-gpu`: Aceleración por GPU
+- `transform-cpu`: Transformación por CPU
+- `transform-none`: Sin transformación
+
+## Utilidades de Grid Avanzadas
+
+### Grid Template
+- `grid-template-{value}`: Plantilla de grid
+- `grid-template-rows-{value}`: Plantilla de filas
+- `grid-template-columns-{value}`: Plantilla de columnas
+- `grid-template-areas-{value}`: Plantilla de áreas
+
+### Grid Auto
+- `grid-auto-rows-{value}`: Filas automáticas
+- `grid-auto-columns-{value}`: Columnas automáticas
+- `grid-auto-flow-{value}`: Flujo automático
+
+### Grid Gap
+- `gap-{value}`: Espacio entre elementos
+- `gap-x-{value}`: Espacio horizontal
+- `gap-y-{value}`: Espacio vertical
+
+## Utilidades de Flexbox Avanzadas
+
+### Flex Container
+- `flex-{value}`: Flex container
+- `flex-direction-{value}`: Dirección de flex
+- `flex-wrap-{value}`: Wrap de flex
+- `flex-flow-{value}`: Flujo de flex
+
+### Flex Items
+- `flex-{value}`: Flex item
+- `flex-grow-{value}`: Crecimiento de flex
+- `flex-shrink-{value}`: Contracción de flex
+- `flex-basis-{value}`: Base de flex
+
+### Flex Align
+- `justify-content-{value}`: Alineación horizontal
+- `align-items-{value}`: Alineación vertical
+- `align-content-{value}`: Alineación de contenido
+- `align-self-{value}`: Auto-alineación
+
+## Utilidades de Accesibilidad Avanzadas
+
+### ARIA Attributes
+- `aria-{attribute}-{value}`: Atributo ARIA
+- `aria-label-{value}`: Etiqueta ARIA
+- `aria-labelledby-{value}`: Etiquetado por ARIA
+- `aria-describedby-{value}`: Descripción por ARIA
+- `aria-hidden-{value}`: Oculto ARIA
+- `aria-disabled-{value}`: Deshabilitado ARIA
+- `aria-expanded-{value}`: Expandido ARIA
+- `aria-selected-{value}`: Seleccionado ARIA
+- `aria-checked-{value}`: Marcado ARIA
+- `aria-pressed-{value}`: Presionado ARIA
+- `aria-invalid-{value}`: Inválido ARIA
+- `aria-busy-{value}`: Ocupado ARIA
+
+## Utilidades de Tipografía Avanzadas
+
+### Font Variant
+- `font-variant-numeric`: Variantes numéricas
+- `font-variant-ligatures`: Ligaduras
+- `font-variant-caps`: Mayúsculas
+- `font-variant-east-asian`: Variantes asiáticas
+- `font-variant-alternates`: Alternativas
+- `font-variant-position`: Posición
+
+### Font Feature Settings
+- `font-feature-settings-{value}`: Configuración de características
+- `font-kerning`: Kerning
+- `font-variant-ligatures`: Ligaduras
+- `font-variant-caps`: Mayúsculas
+- `font-variant-numeric`: Numéricas
+- `font-variant-east-asian`: Asiáticas
+
+## Utilidades de Texto Avanzadas
+
+### Text Decoration
+- `text-decoration-{value}`: Decoración de texto
+- `text-decoration-color-{value}`: Color de decoración
+- `text-decoration-style-{value}`: Estilo de decoración
+- `text-decoration-thickness-{value}`: Grosor de decoración
+- `text-underline-offset-{value}`: Offset de subrayado
+- `text-underline-position-{value}`: Posición de subrayado
+
+### Text Transform
+- `text-transform-{value}`: Transformación de texto
+- `text-transform-uppercase`: Mayúsculas
+- `text-transform-lowercase`: Minúsculas
+- `text-transform-capitalize`: Capitalizar
+- `text-transform-none`: Sin transformación
+
+## Utilidades de Espaciado Avanzadas
+
+### Letter Spacing
+- `tracking-{value}`: Espaciado de letras
+- `tracking-tighter`: Más ajustado
+- `tracking-tight`: Ajustado
+- `tracking-normal`: Normal
+- `tracking-wide`: Amplio
+- `tracking-wider`: Más amplio
+- `tracking-widest`: Más amplio
+
+### Line Height
+- `leading-{value}`: Altura de línea
+- `leading-none`: Sin altura
+- `leading-tight`: Ajustada
+- `leading-snug`: Cómoda
+- `leading-normal`: Normal
+- `leading-relaxed`: Relajada
+- `leading-loose`: Suelta
+
+## Utilidades de Lista Avanzadas
+
+### List Style Type
+- `list-style-type-{value}`: Tipo de lista
+- `list-style-type-none`: Sin estilo
+- `list-style-type-disc`: Puntos
+- `list-style-type-decimal`: Números
+- `list-style-type-circle`: Círculos
+- `list-style-type-square`: Cuadrados
+- `list-style-type-roman`: Romanos
+- `list-style-type-alpha`: Alfabético
+
+### List Style Position
+- `list-style-position-{value}`: Posición de lista
+- `list-style-position-inside`: Dentro
+- `list-style-position-outside`: Fuera
+
+## Utilidades de Tabla Avanzadas
+
+### Table Layout
+- `table-layout-{value}`: Layout de tabla
+- `table-layout-auto`: Automático
+- `table-layout-fixed`: Fijo
+
+### Border Collapse
+- `border-collapse-{value}`: Colapso de bordes
+- `border-collapse-collapse`: Colapsar
+- `border-collapse-separate`: Separar
+
+## Utilidades de Formulario Avanzadas
+
+### Placeholder
+- `placeholder-{value}`: Placeholder
+- `placeholder-color-{value}`: Color de placeholder
+- `placeholder-opacity-{value}`: Opacidad de placeholder
+- `placeholder-{size}`: Tamaño de placeholder
+
+### File Input
+- `file-{value}`: Input de archivo
+- `file-bg-{value}`: Fondo de input
+- `file-text-{value}`: Texto de input
+- `file-border-{value}`: Borde de input
+- `file-rounded-{value}`: Radio de input
+
+## Utilidades de Interacción Avanzadas
+
+### User Select
+- `user-select-{value}`: Selección de usuario
+- `user-select-none`: No seleccionable
+- `user-select-text`: Seleccionar texto
+- `user-select-all`: Seleccionar todo
+- `user-select-auto`: Selección automática
+
+### Pointer Events
+- `pointer-events-{value}`: Eventos de puntero
+- `pointer-events-none`: Sin eventos
+- `pointer-events-auto`: Eventos automáticos
+
+## Utilidades de Visibilidad Avanzadas
+
+### Visibility
+- `visibility-{value}`: Visibilidad
+- `visibility-visible`: Visible
+- `visibility-hidden`: Oculto
+- `visibility-collapse`: Colapsado
+
+### Backface Visibility
+- `backface-visibility-{value}`: Visibilidad trasera
+- `backface-visibility-visible`: Visible
+- `backface-visibility-hidden`: Oculto
+
+## Utilidades de Transformación Avanzadas
+
+### Transform Origin
+- `transform-origin-{value}`: Origen de transformación
+- `transform-origin-center`: Centro
+- `transform-origin-top`: Superior
+- `transform-origin-right`: Derecha
+- `transform-origin-bottom`: Inferior
+- `transform-origin-left`: Izquierda
+
+### Transform Style
+- `transform-style-{value}`: Estilo de transformación
+- `transform-style-flat`: Plano
+- `transform-style-preserve-3d`: Preservar 3D 
